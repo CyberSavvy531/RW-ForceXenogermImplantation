@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Force Xenogerm Implantation</name>
-  <author>zed_0xff</author>
-  <packageId>zed.0xff.ForceXenogermImplantation</packageId>
+  <author>Cyber</author>
+  <packageId>Cyber.ForceXenogermImplantation</packageId>
   <url>https://github.com/zed-0xff/RW-ForceXenogermImplantation</url>
   <supportedVersions>
-    <li>1.4</li>
-    <li>1.5</li>
+      <li>1.4</li>
+      <li>1.5</li>
   </supportedVersions>
   <description>Don't ask slaves or prisoners if they are willing to implant xenogerm, just do it!</description>
   <modDependencies>
@@ -25,4 +25,7 @@
           <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
       </li>
   </modDependencies>
+  <incompatibleWith>
+      <li>zed.0xff.ForceXenogermImplantation</li>
+  </incompatibleWith>
 </ModMetaData>

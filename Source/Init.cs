@@ -13,7 +13,7 @@ namespace ForceXenogermImlpantation
     {
         static LoadHarmony()
         {
-            Harmony harmony = new Harmony("zed_0xff.ForceXenogermImlpantation");
+            Harmony harmony = new Harmony("Cyber.ForceXenogermImlpantation");
 
             harmony.PatchAll();
         }
